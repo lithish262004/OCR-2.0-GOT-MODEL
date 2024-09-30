@@ -32,6 +32,15 @@ Model: ucaslcl/GOT-OCR2_0
 Tokenizer: ucaslcl/GOT-OCR2_0
 While the code includes provisions for running the model on a GPU, this implementation exclusively uses the CPU version due to the constraints of the Hugging Face deployment environment. As a result, processing times may be slower compared to a GPU-enabled setup. However, using the CPU ensures compatibility across a broader range of systems, particularly those without access to a GPU
 
+USEAGE:
+
+1.Set the code in the Google colab and download the prerequisites libraries and run the code. 
+Then upload the image and type the search keyword and output is visible.
+
+
+2.Clone the GitHub repository 
+
+
 
 
 
