@@ -24,6 +24,8 @@ pip install verovio
 
 pip install tiktoken
 
+installation of nvidia driver is must 
+
 MODEL INFO:
 
 This application leverages the CPU version of the GOT (General OCR Theory) model for Optical Character Recognition (OCR). The model and tokenizer are sourced from the Hugging Face model hub:
