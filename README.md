@@ -24,8 +24,15 @@ pip install verovio
 
 pip install tiktoken
 
+MODEL INFO:
 
-MAKE SURE TO HAVE A SYSTEM WITH A NVIDIA DRIVER INSTALLED AS THIS CODE GPU INSTEAD OF CPU
+This application leverages the CPU version of the GOT (General OCR Theory) model for Optical Character Recognition (OCR). The model and tokenizer are sourced from the Hugging Face model hub:
+
+Model: ucaslcl/GOT-OCR2_0
+Tokenizer: ucaslcl/GOT-OCR2_0
+While the code includes provisions for running the model on a GPU, this implementation exclusively uses the CPU version due to the constraints of the Hugging Face deployment environment. As a result, processing times may be slower compared to a GPU-enabled setup. However, using the CPU ensures compatibility across a broader range of systems, particularly those without access to a GPU
+
+
 
 
 
