@@ -35,7 +35,7 @@ While the code includes provisions for running the model on a GPU, this implemen
 USEAGE:
 
 1.Set the code in the Google colab and download the prerequisites libraries and run the code. 
-Then upload the image and type the search keyword and output is visible.
+Then upload the image and type the search keyword and output is visible. (most preferable)
 
 
 2.Clone the GitHub repository 
